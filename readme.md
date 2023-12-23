@@ -35,3 +35,11 @@ A simple make in the console is enough to compile CIFE.
 ## Build for macOS #
 - % brew install wxwidgets
 - % make
+
+## Build for Windows ##
+- git clone https://github.com/Microsoft/vcpkg.git
+- cd vcpkg
+- bootstrap-vcpkg.bat
+- vcpkg integrate install
+- vcpkg install wxwidgets
+- vcpkg install wxwidgets:x64-windows
