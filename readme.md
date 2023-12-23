@@ -33,5 +33,5 @@ Then download the sources for CIFE from Github and go to the root folder where t
 A simple make in the console is enough to compile CIFE.
 
 ## Build for macOS #
-% brew install wxwidgets
-% make
+- % brew install wxwidgets
+- % make
