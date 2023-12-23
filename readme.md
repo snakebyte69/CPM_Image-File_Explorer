@@ -1,5 +1,5 @@
 # CP/M Image File Explorer #
-fork from:
+forked from:
 https://github.com/ProgrammingHobby/CPM_Image-File_Explorer
 
 Update by Snake
