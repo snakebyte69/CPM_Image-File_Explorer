@@ -1,4 +1,10 @@
 # CP/M Image File Explorer #
+fork from:
+https://github.com/ProgrammingHobby/CPM_Image-File_Explorer
+
+Update by Snake
+- GNUmakefile fixed to build on macOS
+- ReadMe translated to English
 
 ![](CIFE_Linux.jpg)
 
