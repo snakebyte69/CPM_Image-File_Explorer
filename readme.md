@@ -20,6 +20,8 @@ Eclipse CDT serves as the development environment.
 
 # Compiling CIFE without a development environment #
 CIFE can be compiled for the respective target system under Linux even without an installed development environment.
+
+## Build for Linux ##
 For this I created a GNUmakefile. The prerequisite is the Linux compiler GCC and the wxWidgets development packages.
 
 Under Ubuntu, the prerequisites can be installed in the console with the following line:
@@ -29,3 +31,7 @@ sudo apt install build-essential libwxgtk3.0-gtk3-dev
 Then download the sources for CIFE from Github and go to the root folder where the GNUmakefile is located.
 
 A simple make in the console is enough to compile CIFE.
+
+## Build for macOS #
+% brew install wxwidgets
+% make
